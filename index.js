@@ -4,13 +4,13 @@ client.on('ready', () => {
     client.request('SET_ACTIVITY', {
         pid: process.pid,
         activity: {
-            details: 'Join Server(s) below pls <3',
+            details: 'Details',
             buttons: [
-                { label: 'Trade Mall', url: 'https://discord.gg/mnWTW7CzND' },
-                { label: 'Rocket League Community', url: 'https://discord.gg/rocket' }
+                { label: 'Name of Button 1', url: 'Redirect link of Button 1' },
+                { label: 'Name of Button 2', url: 'Redirect link of Button 2' }
             ]
         }
       })
     console.log('Started!')
 })
-client.login({clientId: '796136517880905768'})
+client.login({clientId: 'Client ID Here'})
