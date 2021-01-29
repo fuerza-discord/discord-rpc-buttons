@@ -4,13 +4,13 @@ client.on('ready', () => {
     client.request('SET_ACTIVITY', {
         pid: process.pid,
         activity: {
-            details: 'Details',
+            details: 'Check out the buttons below!',
             buttons: [
-                { label: 'Name of Button 1', url: 'Redirect link of Button 1' },
-                { label: 'Name of Button 2', url: 'Redirect link of Button 2' }
+                { label: 'All Nighters', url: 'https://discord.gg/QabpFsxhxm' },
+                { label: 'Trade Mall', url: 'https://discord.gg/bKc8xrmCT6' } 
             ]
         }
       })
     console.log('Started!')
 })
-client.login({clientId: 'Client ID Here'})
+client.login({clientId: '804686328997740624'})
